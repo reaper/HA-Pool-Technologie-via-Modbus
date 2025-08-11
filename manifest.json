@@ -2,9 +2,9 @@
 {
   "domain": "pool_technologie",
   "name": "Pool Technologie",
-  "version": "1.0.6",
+  "version": "20250811",
   "config_flow": true,
-  "documentation": "#",
+  "documentation": "https://github.com/Profil404/HA-Pool-Technologie-via-Modbus",
   "requirements": ["pymodbus==2.5.3"],
   "dependencies": [],
   "codeowners": ["@profil404"]
