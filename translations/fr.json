@@ -1,0 +1,61 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurer l’électrolyseur Pool Technologie",
+        "description": "Entrez les informations de connexion à votre serveur Modbus TCP/IP.",
+        "data": {
+          "host": "Adresse IP",
+          "port": "Port TCP",
+          "unit_id": "Adresse Modbus",
+          "model": "Modèle de l’électrolyseur"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de se connecter au serveur Modbus TCP/IP",
+      "invalid_host": "Adresse IP invalide"
+    },
+    "abort": {
+      "already_configured": "Cet électrolyseur est déjà configuré"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "taille_bassin": {
+        "name": "Taille du bassin"
+      },
+      "ph": {
+        "name": "pH"
+      },
+      "temperature_eau": {
+        "name": "Température de l'eau"
+      },
+      "taux_sel": {
+        "name": "Taux de sel"
+      },
+      "orp": {
+        "name": "ORP"
+      },
+      "consigne_ph": {
+        "name": "Consigne pH"
+      },
+      "consigne_orp": {
+        "name": "Consigne ORP"
+      }
+    },
+    "number": {
+      "consigne_orp": {
+        "name": "Consigne ORP"
+      },
+      "consigne_ph": {
+        "name": "Consigne pH"
+      }
+    },
+    "binary_sensor": {
+      "modbus_status": {
+        "name": "État de la communication Modbus"
+      }
+    }
+  }
+}

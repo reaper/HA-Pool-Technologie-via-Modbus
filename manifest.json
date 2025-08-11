@@ -1,0 +1,11 @@
+
+{
+  "domain": "pool_technologie",
+  "name": "Pool Technologie",
+  "version": "1.0.6",
+  "config_flow": true,
+  "documentation": "#",
+  "requirements": ["pymodbus==2.5.3"],
+  "dependencies": [],
+  "codeowners": ["@profil404"]
+}
