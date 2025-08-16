@@ -18,7 +18,7 @@ Cette intégration permet de suivre et contrôler facilement les principaux para
 
 Un convertisseur RS485 ↔ TCP/IP est indispensable pour connecter l’électrolyseur à votre réseau.
 
-Exemple : [Waveshare Industrial Serial Server RS485 to RJ45 Ethernet TCP/IP to Serial Rail-Mount](amzn.to/3HeBeuT)
+Exemple : [Waveshare Industrial Serial Server RS485 to RJ45 Ethernet TCP/IP to Serial Rail-Mount](https://amzn.to/3HeBeuT)
 
 ## Compatibilité
 
