@@ -5,7 +5,7 @@
   "version": "1.0.1",
   "config_flow": true,
   "documentation": "https://github.com/Profil404/HA-Pool-Technologie-via-Modbus",
-  "requirements": ["pymodbus>=3.9.2"],
+  "requirements": ["pymodbus=3.9.2"],
   "dependencies": [],
   "codeowners": ["@profil404"]
 }
